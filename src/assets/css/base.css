@@ -1,0 +1,33 @@
+html, body, ul, li, p, h1, h2, h3, h4, h5, h6, form, img {
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol, li {
+  list-style-type: none
+}
+
+input {
+  border: none;
+  outline: none;
+  padding: 5px;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-size: 62.5%;
+  font-family: 'Microsoft YaHei';
+}
+
+.box {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+article {
+  display: flex;
+  flex: 1;
+}
